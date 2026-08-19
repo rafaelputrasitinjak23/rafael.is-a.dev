@@ -9,16 +9,16 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Rafael.is-a.dev — Rafael | Developer, Builder & Creator",
+  title: "Rafaelxd.is-a.dev — Rafael | Developer, Builder & Creator",
   description:
     "Personal portfolio of Rafael — developer building websites, tools, bots, automation, AI systems, and digital experiences.",
   applicationName: "Rafael Portfolio",
-  authors: [{ name: "Rafael", url: "https://rafael.is-a.dev" }],
+  authors: [{ name: "Rafael", url: "https://rafaelxd.is-a.dev" }],
   generator: "Next.js",
   keywords: [
     "Rafael",
     "Rafael developer",
-    "Rafael.is-a.dev",
+    "Rafaelxd.is-a.dev",
     "Full-Stack Developer",
     "Bot Automation",
     "Next.js Developer",
@@ -27,16 +27,16 @@ export const metadata: Metadata = {
     "TypeScript",
     "AI Integration",
   ],
-  metadataBase: new URL("https://rafael.is-a.dev"),
+  metadataBase: new URL("https://rafaelxd.is-a.dev"),
   alternates: {
-    canonical: "https://rafael.is-a.dev",
+    canonical: "https://rafaelxd.is-a.dev",
   },
   openGraph: {
-    title: "Rafael.is-a.dev — Rafael | Developer, Builder & Creator",
+    title: "Rafaelxd.is-a.dev — Rafael | Developer, Builder & Creator",
     description:
       "Developer focused on building useful, fast, and interactive digital experiences. Explore selected projects, tech stack, and experiments.",
-    url: "https://rafael.is-a.dev",
-    siteName: "Rafael.is-a.dev",
+    url: "https://rafaelxd.is-a.dev",
+    siteName: "Rafaelxd.is-a.dev",
     locale: "en_US",
     type: "website",
     images: [
@@ -44,16 +44,16 @@ export const metadata: Metadata = {
         url: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop",
         width: 1200,
         height: 630,
-        alt: "Rafael.is-a.dev — Developer Portfolio",
+        alt: "Rafaelxd.is-a.dev — Developer Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rafael.is-a.dev — Rafael | Developer, Builder & Creator",
+    title: "Rafaelxd.is-a.dev — Rafael | Developer, Builder & Creator",
     description:
       "Developer focused on building useful, fast, and interactive digital experiences.",
-    creator: "@rafael",
+    creator: "@rafaelxd",
     images: [
       "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop",
     ],
@@ -80,7 +80,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Rafael",
-    url: "https://rafael.is-a.dev",
+    url: "https://rafaelxd.is-a.dev",
     jobTitle: "Software Developer & Builder",
     description:
       "Developer focused on building useful, fast, and interactive digital experiences.",
@@ -97,7 +97,7 @@ export default function RootLayout({
       "OpenAI",
     ],
     sameAs: [
-      "https://github.com",
+      "https://github.com/rafaelxd",
       "https://t.me/AlightFreeBot",
       "https://alightfree.my.id",
       "https://rafaelxd.my.id",

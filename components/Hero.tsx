@@ -56,7 +56,7 @@ export function Hero({ onOpenContact }: HeroProps) {
       {/* Top Section Metadata */}
       <div className="flex flex-wrap items-center justify-between gap-4 text-[10px] uppercase tracking-[0.3em] text-white/30 border-b border-white/5 pb-4">
         <div className="flex items-center gap-3">
-          <span className="text-white/70 font-medium">RAFAEL.IS-A.DEV</span>
+          <span className="text-white/70 font-medium">RAFAELXD.IS-A.DEV</span>
           <span className="text-white/20">/</span>
           <span>EST. 2026</span>
         </div>
@@ -229,7 +229,7 @@ export function Hero({ onOpenContact }: HeroProps) {
 
         <div className="flex items-center gap-6 text-[10px] uppercase tracking-[0.3em] text-white/30">
           <span>INDONESIA • REMOTE</span>
-          <span>HTTPS://RAFAEL.IS-A.DEV</span>
+          <span>HTTPS://RAFAELXD.IS-A.DEV</span>
         </div>
       </div>
     </section>

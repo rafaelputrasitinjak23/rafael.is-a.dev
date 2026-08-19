@@ -29,7 +29,7 @@ export function Footer({ onOpenContact }: FooterProps) {
     >
       {/* Copyright */}
       <div className="flex items-center gap-3">
-        <span className="text-white/60 font-bold">RAFAEL.IS-A.DEV</span>
+        <span className="text-white/60 font-bold">RAFAELXD.IS-A.DEV</span>
         <span>&mdash;</span>
         <span>&copy; 2026 RAFAEL</span>
       </div>

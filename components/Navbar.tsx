@@ -85,7 +85,7 @@ export function Navbar({ onOpenTerminal }: NavbarProps) {
             id="nav-brand-logo"
             className="text-base sm:text-lg font-bold tracking-tighter text-white hover:opacity-85 transition-opacity"
           >
-            RAFAEL<span className="text-white/40">.IS-A.DEV</span>
+            RAFAELXD<span className="text-white/40">.IS-A.DEV</span>
           </a>
 
           {/* Desktop Navigation Links */}

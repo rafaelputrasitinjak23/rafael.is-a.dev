@@ -12,7 +12,7 @@ interface QuickTerminalProps {
 export function QuickTerminal({ isOpen, onClose }: QuickTerminalProps) {
   const [input, setInput] = useState("");
   const [logs, setLogs] = useState<string[]>([
-    "Rafael.is-a.dev [Version 2026.3.1]",
+    "Rafaelxd.is-a.dev [Version 2026.3.1]",
     "Type 'help' for available commands or click a shortcut below.",
   ]);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -87,9 +87,9 @@ export function QuickTerminal({ isOpen, onClose }: QuickTerminalProps) {
       document.getElementById("experiments")?.scrollIntoView({ behavior: "smooth" });
       setTimeout(onClose, 400);
     } else if (cleanCmd === "contact" || cleanCmd === "goto contact") {
-      newLogs.push("Navigating to 06 — CONTACT...");
-      document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
-      setTimeout(onClose, 400);
+      newLogs.push("Opening Customer Service & Contact Popup...");
+      window.dispatchEvent(new CustomEvent("open-contact-modal"));
+      setTimeout(onClose, 300);
     } else if (cleanCmd === "email") {
       navigator.clipboard.writeText("zyphraaxd@gmail.com");
       newLogs.push("Copied 'zyphraaxd@gmail.com' to clipboard.");

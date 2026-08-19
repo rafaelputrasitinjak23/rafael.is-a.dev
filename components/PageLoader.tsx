@@ -41,7 +41,7 @@ export function PageLoader() {
         >
           {/* Top metadata */}
           <div className="flex justify-between items-center text-[10px] uppercase tracking-[0.3em] text-white/40">
-            <span>RAFAEL.IS-A.DEV</span>
+            <span>RAFAELXD.IS-A.DEV</span>
             <span>SYSTEM // 2026</span>
           </div>
 
@@ -54,7 +54,7 @@ export function PageLoader() {
               className="text-center space-y-2"
             >
               <h1 className="text-3xl sm:text-5xl font-bold tracking-tighter text-white uppercase font-sans">
-                RAFAEL<span className="text-white/40">.IS-A.DEV</span>
+                RAFAELXD<span className="text-white/40">.IS-A.DEV</span>
               </h1>
               <p className="text-[10px] sm:text-[11px] uppercase tracking-[0.4em] text-white/40">
                 DEVELOPER • BUILDER • CREATOR
