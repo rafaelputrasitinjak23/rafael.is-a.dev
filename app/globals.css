@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #050505;
+    --bg-secondary: #0a0a0a;
+    --bg-card: #0a0a0a;
+    --bg-card-inner: #111111;
+    --text-primary: #ffffff;
+    --text-secondary: #94a3b8;
+    --text-muted: rgba(255, 255, 255, 0.4);
+    --border-subtle: rgba(255, 255, 255, 0.05);
+    --border-medium: rgba(255, 255, 255, 0.1);
+    --border-strong: rgba(255, 255, 255, 0.2);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #050505;
+    color: #ffffff;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #050505;
+    color: #ffffff;
+    min-height: 100vh;
+    overflow-x: hidden;
+    selection-background-color: #ffffff;
+    selection-color: #000000;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  ::selection {
+    background: #ffffff;
+    color: #000000;
+  }
+
+  /* Sophisticated minimal scrollbar */
+  ::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #050505;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.15);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.35);
+  }
+}
+
+/* Reduced motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Sophisticated Dark Typography Tracking Classes */
+.tracking-ultra-wide {
+  letter-spacing: 0.4em;
+}
+
+.tracking-wide-editorial {
+  letter-spacing: 0.2em;
+}
+
+.tracking-nav {
+  letter-spacing: 0.2em;
+}
+
+.tracking-footer {
+  letter-spacing: 0.3em;
+}
